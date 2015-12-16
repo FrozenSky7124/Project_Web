@@ -1,0 +1,926 @@
+/*
+	Theme Name: AnimeLight
+	Theme URI: http://newwpthemes.com/animelight-free-wordpress-theme/
+	Description: AnimeLight is a free premium WordPress theme with options page and supports the post thumbnails. Suitable for any niche specially for manga or anime websites or blogs.
+	Author: NewWpThemes.com
+	Author URI: http://newwpthemes.com/
+	Version: 5.1
+    Tags: purple, two-columns, right-sidebar
+*/
+
+/* LAYOUT */
+
+body {
+	background: url(images/bg.png);
+	}
+
+#wrapper {
+    background: url(images/background.jpg) center top no-repeat;
+    background-attachment:fixed; /*Change*/
+	}
+
+#container {
+	width: 1000px;
+	}
+
+#contentwrap {
+	background: #fff url(images/contentwrap.png) center top repeat-y;
+    border-top: 3px solid #0099FF; /*Change*/
+    border-bottom: 3px solid #0099FF; /*Change*/
+	width: 1000px;
+	}
+
+a {
+	color: #666; /*Change-超链接颜色*/
+text-decoration: none;
+	}
+
+a:hover {
+	color: #018ee8; /*Change-超链接鼠标指向颜色*/
+	}
+/* HEADER */
+
+#header {
+	height: 140px; /*Change*/
+	width: 1000px;
+	}
+
+#header h1 {
+	margin-bottom: 0px !important;
+	padding: 15px 0 0 0;
+	font-weight: normal;
+	font-family: 微软雅黑, Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+    /*text-transform: uppercase;*/
+	font-size: 48px;
+	}
+
+#header h1 a, #header h1 a:visited { /*Change-主标题设置*/
+	color: #fcf5fa;
+	text-decoration: none;
+	}
+
+
+#header h2 { /*Change-副标题设置*/
+	color: #fcf5fa;
+	font-size: 14px;
+	line-height: 14px; 
+	font-family: Arial, Helvetica, Sans-serif;
+	}
+
+.logoimg {
+    margin: 10px 0 0 0;    
+}
+
+.feedtwitter {
+	margin-top: 5px;
+	text-align: right;
+}
+    
+    
+/* NAVIGATION MENUS */
+
+#pagemenucontainer {
+	height: 28px;
+    	margin-top: 8px;
+	margin-left:25px;	
+	}
+	
+#pagemenu {
+	height: 28px;
+	
+	}
+
+#pagemenu, #pagemenu ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	}
+#pagemenu {
+	margin-bottom: 10px;
+	
+	}
+	
+#pagemenu ul {
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	}
+	
+#pagemenu li {
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#pagemenu ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#pagemenu li a, #pagemenu li a:link {
+	color: #FFF;
+    background: none; /*Change-页面导航按钮空闲颜色*/
+	display: block;
+    margin: 0px 6px 0 0;
+	padding: 8px 15px; /*Change-鼠标指向时移动*/
+	text-decoration: none;
+	font-weight: bold;
+	/*text-transform: uppercase;*/
+	font-size: 11px;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	}
+	
+#pagemenu li a:hover, #pagemenu li a:active{
+	color: #FFF;
+	display: block;
+    background: url(images/pageav-hover.png) left top repeat-x;
+    text-decoration: none;
+	}
+	
+#pagemenu  li.current_page_item a {
+	color: #FFF;
+	display: block;
+    background: url(images/pageav-hover.png) left top repeat-x;
+    text-decoration: none;
+	}
+
+#pagemenu li:hover, #pagemenu li.sfhover { 
+	position: static;
+	}
+	
+
+#navcontainer {
+	color:#0099FF;
+	height: 38px;
+	display: block;
+	overflow: hidden;
+    	background: url(images/nav-background.png) left top repeat-x;
+    	padding: 0 8px;
+    	margin-bottom: 8px;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+
+/*	-moz-border-radius: 5px;
+    	-khtml-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px;*/
+	width: 985px;
+	}
+
+#navcontainer .current-cat a {
+	display: block;
+	background: url(images/nav-background-hover.png) left top repeat-x;
+	font-family: 微软雅黑, Arial, Helvetica, sans-serif;
+
+/*	-moz-border-radius: 5px;
+    	-khtml-border-radius: 5px;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px;*/
+	}
+	
+/* CONTENT */
+
+#content {
+	padding: 15px 5px 15px 15px;
+    	color: #686868;
+	width: 655px;
+	}
+
+	
+pre { 	overflow: auto; 
+	width: 470px;
+	}
+
+.post {
+	white-space:normal; 
+	word-break:break-all;
+	word-wrap:break-word;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	}
+
+.post p {
+	margin-bottom: 10px;
+	}
+
+.title {
+	margin: 0 0 0px 0;
+	padding: 0px;
+	line-height: 16px;
+	font-size: 16px;
+	font-family: 微软雅黑, Arial, Helvetica, Sans-serif;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+	color: #0066FF;
+	}
+
+	
+.title a {
+	text-decoration: none;
+	color: #0066FF;
+	font-family: 微软雅黑, Arial, Helvetica, Sans-serif;
+	}
+
+.title a:hover {
+	text-decoration: none;
+	color: #00CCFF;
+	}
+
+.pagetitle {
+	margin-bottom: 20px;
+	line-height: 22px;
+	font-family: 微软雅黑, Arial, Verdana;
+	text-decoration: none;
+}
+
+.postdate {
+	font-size: 12px;
+	font-family: 微软雅黑, Arial, Helvetica, Sans-serif;
+    color: #a8a8a8;;
+margin: 2px 0 0px 0;
+	}
+
+.postdate a {
+	color: #a8a8a8;
+	}
+.postdate a:hover {
+	color: #0066FF;
+	}
+
+.postmeta {
+	font-size: 11px;
+	padding: 2px 4px;
+	font-family: 微软雅黑, Arial, Verdana;
+	border: 1px solid #C0C0C0;
+	margin-bottom:20px;
+	margin-top:20px;
+	}
+	
+.postdate img, .postmeta img {
+	border: none;
+	vertical-align: middle;
+	margin:2px;
+	}
+	
+.entry {
+	text-align: justify;
+	line-height: 23px;
+	padding-top: 8px;
+	font-family: 微软雅黑, Arial, Verdana;
+	font-size: 13px;
+	}
+
+.entry-head {
+	border-left: 5px solid #0086e3;
+	padding-left: 10px;
+}
+
+.navigation {
+	padding: 10px 0;
+	}
+
+blockquote {
+	overflow: hidden;
+	padding-left: 9px;
+	font-style: normal;
+	color: #666;
+	border-left: 3px solid #CADAE7;
+	}
+	
+.post img {
+	max-width: 680px;
+	}
+
+img.wp-smiley {
+	max-height: 12px;
+	margin: 0;
+	padding: 0;
+	border: none;
+	}
+	
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+	}
+
+.alignleft {
+   float: left;
+	}
+
+.alignright {
+   float: right;
+	}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+   /* optional rounded corners for browsers that support it */
+   -moz-border-radius: 3px;
+   -khtml-border-radius: 3px;
+   -webkit-border-radius: 3px;
+   border-radius: 3px;
+	}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+	}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+	}
+
+	
+/* wp-pagenavi */
+.wp-pagenavi a, .wp-pagenavi a:link, .wp-pagenavi a:active {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    color: #0099FF !important;
+    background:none !important;
+    border: 0 !important;
+font-weight: bold;
+}
+.wp-pagenavi a:hover {
+    border: 0 !important;
+    color: #fff !important;
+    background:#0099FF !important;
+    border: 0 !important;
+font-weight: bold;
+    
+}
+.wp-pagenavi span.pages {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    color: #0099FF !important;
+    background: none !important;
+    border: 0 !important;
+font-weight: bold;
+}
+.wp-pagenavi span.current {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    font-weight: bold;
+    color: #fff !important;
+    background:#0099FF !important;
+    border: 0 !important;
+}
+.wp-pagenavi span.extend {
+    font-size: 15px !important;
+    padding:  4px 8px !important;
+    background:transparent !important;
+    color: #0099FF !important;
+    background: none !important;
+    border: 0 !important;
+}
+	
+	
+/* SIDEBAR(S) */
+
+.sidebaradbox {
+	margin-top: 10px; 
+	text-align:center;
+	}
+	
+.ad125 {
+	margin: 6px;
+	}
+
+
+.sidebar {
+	margin: 0px 10px 10px 57px;
+    font-size: 13px;
+    color: #686868;
+	font-family: 微软雅黑, Arial, Helvetica, Sans-serif;
+	width: 300px;
+	}
+	
+.sidebar a {
+	text-decoration: none;
+	color: #686868;
+	}
+
+.sidebar a:hover {
+	text-decoration: underline;
+	color:#0099FF;
+	}
+	
+	
+#search {
+    border: 1px solid #00CCFF;
+    height: 28px;
+    padding: 0;
+    background: none;
+    text-align: right;
+    margin-top: 15px;
+}
+
+#search input {
+	border: 0;
+    background: none;
+    color: #FFFFFF;
+	font-family:微软雅黑, Arial, Helvetica, Sans-serif;
+}
+	
+	
+#s {
+	width: 240px;
+	padding: 4px;
+    margin:2px 0 0 0;
+    background: none;
+}
+
+#topsearch #search {
+    margin: 8px 0px 0 0;
+	/*margin-top: 80px !important;*/
+    padding-right: 4px;
+    }
+    
+#topsearch #s {
+    width: 228px;
+	margin: 2px 0 0 0;
+    }
+
+	
+		
+/* Social icons */
+.addthis_toolbox {
+    padding: 15px 0 0px 0;
+	text-align: center;
+	}
+.addthis_toolbox .custom_images a
+{
+    width: 32px;
+    height: 32px;
+    margin: 0 3px 0 3px;
+    padding: 0;
+}
+
+.addthis_toolbox .custom_images a:hover img
+{
+    opacity: 1;
+}
+
+.addthis_toolbox .custom_images a img
+{
+    opacity: 0.85;
+}
+
+
+	
+.sidebarvideo {
+
+	}
+
+.sidebar h2 {
+	margin: 10px 0 0 0;
+	padding: 8px;
+    text-align: left;
+	font-size: 16px;
+    line-height: 16px;
+    color: #0066FF;
+	font-family: 微软雅黑, Arial, Helvetica, Sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+    border-left: 4px solid #0099FF;
+    background: url(images/sidebar-tab.png) left top repeat-y;
+    text-shadow: 0 1px 0 #00CCFF;
+	}
+
+.sidebar ul {
+	list-style-type: none;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+
+	}
+	
+.sidebar ul li {
+	list-style-type: none;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+
+	}
+
+.sidebar ul ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+
+	}
+
+	
+.sidebar ul li li, .sidebar ul li ul li {
+	/*background: url(images/bullet.png) left 11px no-repeat;*/
+	padding: 6px 0px 6px 6px;
+	margin: 0;
+	
+	}
+
+
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	color: #594457;
+	background: none;
+	}
+#wp-calendar caption {
+	padding: 2px 4px;
+	text-transform: uppercase;	margin: 2px 0 2px 0;
+	background: none;
+    color: #594457;
+	}
+
+#wp-calendar td {
+	color: #594457;
+	font: normal 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	letter-spacing: normal;
+	padding: 2px 0;
+	text-align: center;
+	}
+
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #e7cfe2;
+	color: #594457;
+	}
+#wp-calendar td:hover a {
+    color: #594457;
+}	
+#wp-calendar {
+	empty-cells: show;
+	font-size: 14px;
+	margin: 0;
+	font-weight: bold; 
+	width: 100%;
+	}
+
+/* FOOTER */
+
+#footer {
+    background: #0099FF;
+	padding: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 13px;
+	width: 956px;
+	}
+
+#footer a {
+	color: #f0e0ed;
+	} 
+
+#footer a:hover {
+	text-decoration: none;
+    color: #f0e0ed;
+	} 
+	
+#credits {
+	color: #0066FF;
+	font-size: 11px;
+	text-align: center;
+	padding: 10px;
+	}
+    	
+#credits a {
+	color: #0066FF;
+    text-decoration: none;
+	} 
+	
+/* COMMENTS */
+
+#comments h3 {
+	margin-bottom: 10px;	
+}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform {
+	margin: 5px 10px 0 0;
+	}
+	
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+	
+#respond:after {
+		content: "."; 
+	    display: block; 
+	    height: 0; 
+	    clear: both; 
+	    visibility: hidden;
+	}
+	
+#commentform #submit {
+	margin: 0 0 5px auto;
+	float: right;
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 10px;
+	padding: 5px 5px 10px 10px;
+	list-style: none;
+	border: 1px solid #0099FF;
+	}
+	
+.commentlist li ul li { 
+	margin-right: -5px;
+	margin-left: 10px;
+}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+}
+.children { padding: 0; }
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+	
+.post_thumbnail {
+    padding: 6px;
+    background: #fff;
+    border: 1px solid #e0cdda;
+    margin: 0 10px 10px 0;
+}
+
+
+/* =RESPONSIVE
+-------------------------------------------------------------- */
+
+.menu-primary-responsive-container, .menu-secondary-responsive-container  {
+    display: none;
+    margin: 10px 0;
+}
+
+.menu-primary-responsive, .menu-secondary-responsive  {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+
+/* Tablets ----------- */
+
+@media only screen and (max-width: 768px) {
+    
+    .span-1, .span-2, .span-3, .span-4, .span-5,.span-6, .span-7, .span-8, .span-9, .span-10, .span-11, .span-12, .span-13, .span-14, .span-15, .span-16, .span-17, .span-18, .span-19, .span-20, .span-21, .span-22, .span-23, .span-24,
+     div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, div.span-21, div.span-22, div.span-23, div.span-24
+    {
+        width:100%;
+        margin:0;
+        display: block;
+        padding: 0;
+        float: none;
+    }
+    
+    .container, div.container {
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    #contentwrap {
+        background-image: none;
+    }
+    
+    .entry {
+        overflow:  hidden;
+    }
+    
+    .smooth_gallery, .fullbox_excerpt, .fullbox_content, .myGallery {
+        display: none;
+    }
+   
+    #header, #header-wrap {
+        height: auto;
+    }
+    
+    #header .span-11, #header .span-11 div, #header .span-12, #header .span-12 div, #header .span-13, #header .span-13 div  {
+       text-align: center !important;
+       padding-bottom: 10px;
+    }
+   
+     #topsearch, #topsocials, .feedtwitter  {
+         text-align: center;
+         display: block;
+         float: none;
+         width: auto;
+         margin: 0;
+         height: auto;
+    }
+    .logoimg {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .sidebar {
+        
+    }
+    
+    #search {
+        text-align: left;
+        padding-left: 5px;
+    }
+    
+    #s {
+        width: auto !important;
+    }
+    
+    #search input[type='image'] {
+        float: right !important;
+    }
+
+    #pagemenucontainer {
+        float: none;
+        display: block;
+    }
+}
+
+/* Mobile Phones ----------- */
+
+@media only screen and (max-width: 480px) {
+    #header .span-11, #header .span-11 div, #header .span-12, #header .span-12 div, #header .span-13, #header .span-13 div  {
+       text-align: center !important;
+       padding-bottom: 0;
+    }
+ 
+    .menu-primary-responsive-container, .menu-secondary-responsive-container {
+        display: block;
+    }
+    
+    #pagemenucontainer, #navcontainer, #pagemenu, #nav {
+        display: none;
+    }
+}
+
+/* Some General Formattings ----------- */
+
+embed,
+img,
+object,
+video,
+.wp-caption {
+	max-width: 100% !important;
+}
+
+img {
+	margin: 5px 0 0 0;
+	height: auto;
+}
+
+/* =SITEMAP
+-------------------------------------------------------------- */
+.sitemap {
+}
+
+.sitemap-col {
+    width: 30%;
+    padding: 0 0 0 10px;
+}
+
+.sitemap-col-archives {
+    width: 45%;
+    padding: 0 0 0 10px;
+}
+
+.sitemap h2 {
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
+}
+
+.sitemap h3 {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+
+.sitemap-list {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.sitemap-list, .sitemap-list ul {
+    padding: 0 0 0 20px;
+}
+
+/* =CONTACT FORM
+-------------------------------------------------------------- */
+.contact-form {
+}
+
+.contact-form-label {
+    width: 90px;    
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px 0;
+}
+
+.contact-form-input {
+    margin-left: 90px;    
+}
+
+.contact-form input[type=text] {
+    padding: 6px;
+    width: 60%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.contact-form input[type=submit] {
+    padding: 5px 50px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+.contact-form textarea {
+    width: 96%;
+    padding: 6px;
+    height: 160px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.contact-form-required {
+    color: red;
+}
+
+/* WooCommerces ----------- */
+.woocommerce #contentwrap {
+    background: #fff;
+}
+
+.variations .label {
+    background-color:inherit;
+    color: inherit;
+    display: block !important;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height:inherit;
+    text-shadow: none;
+    vertical-align: inherit;
+    white-space: inherit;
+    padding: 8px 8px 8px 0 !important;
+} 
+.woocommerce input[type="text"], .woocommerce input[type="password"], .woocommerce input.text, .woocommerce input.title, .woocommerce textarea, .woocommerce select {
+    margin: 0;  
+    padding: 4px !important;
+}
+
+.quantity input[type="text"], .quantity input.text, .quantity input{
+    margin: 0;  
+    padding: 0 !important;
+}
+
+.woocommerce img {
+    width: auto !important;
+    height: auto !important;
+}

@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: flat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-01 10:50+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\flat\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\flat\n"
+
+#: wp-content\themes\flat/404.php:5
+msgid "Error 404 Not Found."
+msgstr "お探しのページは見つかりません。"
+
+#: wp-content\themes\flat/404.php:7
+#: wp-content\themes\flat/archive.php:62
+#: wp-content\themes\flat/index.php:35
+#: wp-content\themes\flat/navigation.php:22
+#: wp-content\themes\flat/page-comment.php:33
+#: wp-content\themes\flat/page-noside.php:28
+#: wp-content\themes\flat/page.php:23
+#: wp-content\themes\flat/search.php:47
+#: wp-content\themes\flat/single.php:46
+msgid "RETURN HOME"
+msgstr "ホームに戻る"
+
+#: wp-content\themes\flat/archive.php:8
+#, php-format
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr "カテゴリー &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: wp-content\themes\flat/archive.php:11
+#, php-format
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "タグ &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: wp-content\themes\flat/archive.php:14
+#: wp-content\themes\flat/archive.php:17
+#: wp-content\themes\flat/archive.php:20
+#, php-format
+msgid "Archive for &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "アーカイブ &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: wp-content\themes\flat/archive.php:14
+#: wp-content\themes\flat/comments.php:111
+#: wp-content\themes\flat/functions.php:347
+msgid "F jS, Y"
+msgstr "Y年 n月j日"
+
+#: wp-content\themes\flat/archive.php:17
+msgid "F, Y"
+msgstr "Y年 n月"
+
+#: wp-content\themes\flat/archive.php:20
+msgid "Y"
+msgstr "Y年"
+
+#: wp-content\themes\flat/archive.php:23
+msgid "Author Archive"
+msgstr "投稿者別アーカイブ"
+
+#: wp-content\themes\flat/archive.php:26
+msgid "Blog Archives"
+msgstr "ブログアーカイブ"
+
+#: wp-content\themes\flat/archive.php:36
+#: wp-content\themes\flat/index.php:9
+#: wp-content\themes\flat/page-comment.php:14
+#: wp-content\themes\flat/page-noside.php:14
+#: wp-content\themes\flat/page.php:9
+#: wp-content\themes\flat/search.php:15
+#: wp-content\themes\flat/single.php:24
+msgid "Read more"
+msgstr "続きを読む"
+
+#: wp-content\themes\flat/archive.php:48
+#: wp-content\themes\flat/index.php:21
+#: wp-content\themes\flat/page-comment.php:20
+#: wp-content\themes\flat/search.php:27
+#: wp-content\themes\flat/single.php:30
+msgid "m/d. Y"
+msgstr "Y m/d"
+
+#: wp-content\themes\flat/archive.php:50
+#: wp-content\themes\flat/comments.php:33
+#: wp-content\themes\flat/index.php:23
+#: wp-content\themes\flat/page-comment.php:21
+#: wp-content\themes\flat/search.php:29
+#: wp-content\themes\flat/single.php:34
+msgid "Write comment"
+msgstr "コメントを書く"
+
+#: wp-content\themes\flat/archive.php:50
+#: wp-content\themes\flat/index.php:23
+#: wp-content\themes\flat/page-comment.php:21
+#: wp-content\themes\flat/search.php:29
+#: wp-content\themes\flat/single.php:34
+msgid "1 comment"
+msgstr "コメント 1"
+
+#: wp-content\themes\flat/archive.php:50
+#: wp-content\themes\flat/index.php:23
+#: wp-content\themes\flat/page-comment.php:21
+#: wp-content\themes\flat/search.php:29
+#: wp-content\themes\flat/single.php:34
+#, php-format
+msgid "% comments"
+msgstr "コメント %"
+
+#: wp-content\themes\flat/archive.php:51
+#: wp-content\themes\flat/functions.php:362
+#: wp-content\themes\flat/index.php:24
+#: wp-content\themes\flat/page-comment.php:22
+#: wp-content\themes\flat/search.php:30
+#: wp-content\themes\flat/single.php:35
+msgid "EDIT"
+msgstr "編集"
+
+#: wp-content\themes\flat/archive.php:60
+#: wp-content\themes\flat/index.php:33
+#: wp-content\themes\flat/page-comment.php:31
+#: wp-content\themes\flat/page-noside.php:26
+#: wp-content\themes\flat/page.php:21
+#: wp-content\themes\flat/search.php:45
+#: wp-content\themes\flat/single.php:44
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "お探しの記事は見つかりませんでした。"
+
+#: wp-content\themes\flat/comments.php:7
+#: wp-content\themes\flat/comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "この記事はパスワードで保護されています。パスワードを入力するとコメント観閲する事ができます。"
+
+#: wp-content\themes\flat/comments.php:35
+msgid "Comments RSS"
+msgstr "コメント RSS"
+
+#: wp-content\themes\flat/comments.php:40
+msgid "Trackback"
+msgstr "トラックバック"
+
+#: wp-content\themes\flat/comments.php:41
+#: wp-content\themes\flat/comments.php:44
+msgid "Comments"
+msgstr "コメント"
+
+#: wp-content\themes\flat/comments.php:43
+msgid "Trackback are closed"
+msgstr "トラックバックは閉じられています"
+
+#: wp-content\themes\flat/comments.php:75
+msgid "No comments yet."
+msgstr "コメント 0"
+
+#: wp-content\themes\flat/comments.php:102
+msgid "TrackBack URL"
+msgstr "トラックバックURL"
+
+#: wp-content\themes\flat/comments.php:112
+msgid "[ EDIT ]"
+msgstr "[ 編集 ]"
+
+#: wp-content\themes\flat/comments.php:115
+msgid "Trackback from : "
+msgstr "トラックバック先："
+
+#: wp-content\themes\flat/comments.php:120
+msgid "No trackbacks yet."
+msgstr "トラックバック 0"
+
+#: wp-content\themes\flat/comments.php:139
+msgid "Comment are closed."
+msgstr "コメントは閉じられています。"
+
+#: wp-content\themes\flat/comments.php:150
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "コメントをする為には<a href=\"%s\">ログイン</a>してください。"
+
+#: wp-content\themes\flat/comments.php:167
+#: wp-content\themes\flat/comments.php:169
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "<a href=\"%1$s\">%2$s</a>としてログイン中。"
+
+#: wp-content\themes\flat/comments.php:167
+#: wp-content\themes\flat/comments.php:169
+msgid "Log out of this account"
+msgstr "このアカウントからログアウトする"
+
+#: wp-content\themes\flat/comments.php:167
+msgid "[ Log out ]"
+msgstr "[ ログアウト ]"
+
+#: wp-content\themes\flat/comments.php:169
+msgid "Log out"
+msgstr "ログアウト"
+
+#: wp-content\themes\flat/comments.php:176
+msgid "NAME"
+msgstr "名前"
+
+#: wp-content\themes\flat/comments.php:176
+#: wp-content\themes\flat/comments.php:177
+msgid "( required )"
+msgstr "( 必須 )"
+
+#: wp-content\themes\flat/comments.php:177
+msgid "E-MAIL"
+msgstr "E-MAIL"
+
+#: wp-content\themes\flat/comments.php:177
+msgid "- will not be published -"
+msgstr "- 公開されませんのでご安心ください -"
+
+#: wp-content\themes\flat/comments.php:178
+msgid "URL"
+msgstr "URL"
+
+#: wp-content\themes\flat/comments.php:192
+msgid "Submit Comment"
+msgstr "コメントを送信する"
+
+#: wp-content\themes\flat/footer.php:13
+msgid "Copyright &copy;&nbsp; "
+msgstr "Copyright &copy;&nbsp; "
+
+#: wp-content\themes\flat/footer.php:14
+msgid "Theme designed by <a class=\"target_blank\" href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr "Theme designed by <a class=\"target_blank\" href=\"http://www.mono-lab.net/\">mono-lab</a>"
+
+#: wp-content\themes\flat/footer.php:15
+msgid "Powered by <a class=\"target_blank\" href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "Powered by <a class=\"target_blank\" href=\"http://wordpress.org/\">WordPress</a>"
+
+#: wp-content\themes\flat/functions.php:147
+#: wp-content\themes\flat/functions.php:160
+msgid "FLAT Theme Options"
+msgstr "FLAT テーマオプション設定"
+
+#: wp-content\themes\flat/functions.php:155
+msgid "Theme options have been saved."
+msgstr "設定が保存されました。"
+
+#: wp-content\themes\flat/functions.php:164
+#: wp-content\themes\flat/functions.php:229
+msgid "Save Changes"
+msgstr "設定を保存する"
+
+#: wp-content\themes\flat/functions.php:167
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image to, /wp-content/themes/flat/img/ )"
+msgstr "ブログのタイトルに画像を使いたい場合は、下にチェックを入れてください。<br />注意：必ず画像を、wp-content/themes/flat/img/ にアップロードし、下にアップロードした画像名をご記入ください。"
+
+#: wp-content\themes\flat/functions.php:168
+#: wp-content\themes\flat/functions.php:175
+#: wp-content\themes\flat/functions.php:186
+#: wp-content\themes\flat/functions.php:189
+#: wp-content\themes\flat/functions.php:196
+#: wp-content\themes\flat/functions.php:201
+#: wp-content\themes\flat/functions.php:208
+#: wp-content\themes\flat/functions.php:215
+#: wp-content\themes\flat/functions.php:218
+#: wp-content\themes\flat/functions.php:221
+#: wp-content\themes\flat/functions.php:226
+msgid "Yes"
+msgstr "はい"
+
+#: wp-content\themes\flat/functions.php:169
+msgid "Input your logo file name."
+msgstr "画像の名前"
+
+#: wp-content\themes\flat/functions.php:174
+msgid "Show Information on sidebar."
+msgstr "右サイドにインフォメーションを表示する。"
+
+#: wp-content\themes\flat/functions.php:177
+msgid "Information title."
+msgstr "インフォメーションのタイトル。"
+
+#: wp-content\themes\flat/functions.php:180
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "インフォメーションの内容。（HTMLタグの利用可）"
+
+#: wp-content\themes\flat/functions.php:185
+msgid "Show Search form on sidebar."
+msgstr "右サイドに検索欄を表示する。"
+
+#: wp-content\themes\flat/functions.php:188
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "Googleカスタム検索を利用する。<br />利用する場合は、右のアドレスよりGoogleカスタム検索IDを取得してください。 <a href=\"http://www.google.com/cse/\">Googleカスタム検索</a>"
+
+#: wp-content\themes\flat/functions.php:190
+msgid "Input your Google Custom Search ID."
+msgstr "あなたの、Googleカスタム検索IDを入力してください。"
+
+#: wp-content\themes\flat/functions.php:195
+msgid "Show RSS button on sidebar."
+msgstr "右サイドにRSSボタンを表示する。"
+
+#: wp-content\themes\flat/functions.php:200
+msgid "Show Twitter button on sidebar."
+msgstr "右サイドにTwitterボタンを表示する。"
+
+#: wp-content\themes\flat/functions.php:202
+msgid "Input your Twitter URL."
+msgstr "TwitterのURLを入力してください。"
+
+#: wp-content\themes\flat/functions.php:207
+msgid "Show Facebook button on sidebar."
+msgstr "右サイドにFacebookボタンを表示する。"
+
+#: wp-content\themes\flat/functions.php:209
+msgid "Input your Facebook URL."
+msgstr "FacebookのURLを入力してください。"
+
+#: wp-content\themes\flat/functions.php:214
+msgid "Show author name."
+msgstr "投稿者名を記事の左側に表示する。"
+
+#: wp-content\themes\flat/functions.php:217
+msgid "Show bread crumb at single post page."
+msgstr "パンくずリンクを記事の詳細ページに表示する。"
+
+#: wp-content\themes\flat/functions.php:220
+msgid "Show time on comment."
+msgstr "投稿されたコメントに時間を表示する。"
+
+#: wp-content\themes\flat/functions.php:225
+msgid "Check if you want to show Return top button on right bottom of the site."
+msgstr "画面右下にページ上部へのリンクを表示する。"
+
+#: wp-content\themes\flat/functions.php:347
+msgid " g:ia"
+msgstr " g:ia"
+
+#: wp-content\themes\flat/functions.php:354
+#: wp-content\themes\flat/functions.php:356
+#: wp-content\themes\flat/functions.php:359
+msgid "REPLY"
+msgstr "返信"
+
+#: wp-content\themes\flat/functions.php:361
+msgid "QUOTE"
+msgstr "引用"
+
+#: wp-content\themes\flat/functions.php:368
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認を待っています。"
+
+#: wp-content\themes\flat/header.php:8
+#, php-format
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: wp-content\themes\flat/navigation.php:16
+msgid "PAGE NAVI"
+msgstr "PAGE NAVI"
+
+#: wp-content\themes\flat/search.php:6
+msgid "Search results for "
+msgstr "検索結果"
+
+#: wp-content\themes\flat/search.php:6
+msgid " hit"
+msgstr "件"
+
+#: wp-content\themes\flat/sidebar.php:36
+#: wp-content\themes\flat/sidebar.php:40
+#: wp-content\themes\flat/sidebar.php:44
+#: wp-content\themes\flat/sidebar.php:45
+msgid "SEARCH"
+msgstr "サイト内検索"
+
+#: wp-content\themes\flat/sidebar.php:76
+msgid "RECENT ENTRY"
+msgstr "RECENT ENTRY"
+
+#: wp-content\themes\flat/sidebar.php:87
+msgid "CATEGORY"
+msgstr "CATEGORY"
+
+#: wp-content\themes\flat/sidebar.php:95
+msgid "ARCHIVES"
+msgstr "ARCHIVES"
+
+#: wp-content\themes\flat/sidebar.php:104
+msgid "LINKS"
+msgstr "LINKS"
+
+#: wp-content\themes\flat/single.php:11
+msgid "HOME"
+msgstr "ホーム"
+

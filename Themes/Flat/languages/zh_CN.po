@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FLAT v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-04-30 04:50+0000\n"
+"Last-Translator: neverno <admin@neverno.me>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: PEOPLE'S REPUBLIC OF CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:5
+#@ flat
+msgid "Error 404 Not Found."
+msgstr "Error 404 Not Found."
+
+#: 404.php:7
+#: archive.php:62
+#: index.php:35
+#: navigation.php:22
+#: page-comment.php:33
+#: page-noside.php:28
+#: page.php:23
+#: search.php:47
+#: single.php:46
+#@ flat
+msgid "RETURN HOME"
+msgstr "返回首页"
+
+#: archive.php:8
+#, php-format
+#@ flat
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr "&#8216;<span id=\"keyword\"> %s </span>&#8217; 目录归档"
+
+#: archive.php:11
+#, php-format
+#@ flat
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "标签 &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: archive.php:14
+#: archive.php:17
+#: archive.php:20
+#, php-format
+#@ flat
+msgid "Archive for &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr "归档之于 &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+
+#: archive.php:14
+#: comments.php:111
+#: functions.php:347
+#@ flat
+msgid "F jS, Y"
+msgstr "Y 年 n 月 j 日 H:i:s"
+
+#: archive.php:17
+#@ flat
+msgid "F, Y"
+msgstr "Y 年F"
+
+#: archive.php:20
+#@ flat
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:23
+#@ flat
+msgid "Author Archive"
+msgstr "作者归档"
+
+#: archive.php:26
+#@ flat
+msgid "Blog Archives"
+msgstr "博客归档"
+
+#: archive.php:36
+#: index.php:9
+#: page-comment.php:14
+#: page-noside.php:14
+#: page.php:9
+#: search.php:15
+#: single.php:24
+#@ flat
+msgid "Read more"
+msgstr "阅读全文"
+
+#: archive.php:48
+#: index.php:21
+#: page-comment.php:20
+#: search.php:27
+#: single.php:30
+#@ flat
+msgid "m/d. Y"
+msgstr "Y/m/d"
+
+#: archive.php:50
+#: comments.php:33
+#: index.php:23
+#: page-comment.php:21
+#: search.php:29
+#: single.php:34
+#@ flat
+msgid "Write comment"
+msgstr "发表评论"
+
+#: archive.php:50
+#: index.php:23
+#: page-comment.php:21
+#: search.php:29
+#: single.php:34
+#@ flat
+msgid "1 comment"
+msgstr "只有一条评论"
+
+#: archive.php:50
+#: index.php:23
+#: page-comment.php:21
+#: search.php:29
+#: single.php:34
+#@ flat
+msgid "% comments"
+msgstr "% 条评论"
+
+#: archive.php:51
+#: functions.php:362
+#: index.php:24
+#: page-comment.php:22
+#: search.php:30
+#: single.php:35
+#@ flat
+msgid "EDIT"
+msgstr "编辑"
+
+#: archive.php:60
+#: index.php:33
+#: page-comment.php:31
+#: page-noside.php:26
+#: page.php:21
+#: search.php:45
+#: single.php:44
+#@ flat
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "抱歉，您要找的东西不在这里。"
+
+#: comments.php:7
+#: comments.php:13
+#@ flat
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "此篇文章受到密码保护，请输入密码："
+
+#: comments.php:35
+#@ flat
+msgid "Comments RSS"
+msgstr "RSS订阅评论"
+
+#: comments.php:40
+#@ flat
+msgid "Trackback"
+msgstr "Trackback"
+
+#: comments.php:41
+#: comments.php:44
+#@ flat
+msgid "Comments"
+msgstr "评论"
+
+#: comments.php:43
+#@ flat
+msgid "Trackback are closed"
+msgstr "Trackback 关闭"
+
+#: comments.php:75
+#@ flat
+msgid "No comments yet."
+msgstr "暂无评论"
+
+#: comments.php:102
+#@ flat
+msgid "TrackBack URL"
+msgstr "TrackBack 地址"
+
+#: comments.php:112
+#@ flat
+msgid "[ EDIT ]"
+msgstr "[ 编辑 ]"
+
+#: comments.php:115
+#@ flat
+msgid "Trackback from : "
+msgstr "Trackback 来自："
+
+#: comments.php:120
+#@ flat
+msgid "No trackbacks yet."
+msgstr "暂无 Trackback"
+
+#: comments.php:139
+#@ flat
+msgid "Comment are closed."
+msgstr "评论关闭"
+
+#: comments.php:150
+#, php-format
+#@ flat
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "您必须 <a href=\"%s\">登陆</a> 后才能发表评论"
+
+#: comments.php:167
+#: comments.php:169
+#, php-format
+#@ flat
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr "您好，<a href=\"%1$s\">%2$s</a>。"
+
+#: comments.php:167
+#: comments.php:169
+#@ flat
+msgid "Log out of this account"
+msgstr "登出"
+
+#: comments.php:167
+#@ flat
+msgid "[ Log out ]"
+msgstr "[ 登出 ]"
+
+#: comments.php:169
+#@ flat
+msgid "Log out"
+msgstr "登出"
+
+#: comments.php:176
+#@ flat
+msgid "NAME"
+msgstr "昵称"
+
+#: comments.php:176
+#: comments.php:177
+#@ flat
+msgid "( required )"
+msgstr "( 必须 )"
+
+#: comments.php:177
+#@ flat
+msgid "E-MAIL"
+msgstr "E-MAIL"
+
+#: comments.php:177
+#@ flat
+msgid "- will not be published -"
+msgstr "- 不会公开 -"
+
+#: comments.php:178
+#@ flat
+msgid "URL"
+msgstr "网址"
+
+#: comments.php:192
+#@ flat
+msgid "Submit Comment"
+msgstr "发表评论"
+
+#: footer.php:13
+#@ flat
+msgid "Copyright &copy;&nbsp; "
+msgstr "版权所有 &copy;&nbsp; "
+
+#: footer.php:14
+#@ flat
+msgid "Theme designed by <a class=\"target_blank\" href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr "主题由 <a class=\"target_blank\" href=\"http://www.mono-lab.net/\">mono-lab</a> 设计"
+
+#: footer.php:15
+#@ flat
+msgid "Powered by <a class=\"target_blank\" href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "由 <a class=\"target_blank\" href=\"http://wordpress.org/\">WordPress</a> 强力驱动"
+
+#: functions.php:147
+#: functions.php:160
+#@ flat
+msgid "FLAT Theme Options"
+msgstr "FLAT 主题设置"
+
+#: functions.php:155
+#@ flat
+msgid "Theme options have been saved."
+msgstr "主题设置已保存。"
+
+#: functions.php:164
+#: functions.php:229
+#@ flat
+msgid "Save Changes"
+msgstr "保存设置"
+
+#: functions.php:167
+#@ flat
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image to, /wp-content/themes/flat/img/ )"
+msgstr "是否使用LOGO代替默认的文字标题。<br />( LOGO文件存放位置：<b>/wp-content/themes/flat/img/</b> )"
+
+#: functions.php:168
+#: functions.php:175
+#: functions.php:178
+#: functions.php:185
+#: functions.php:190
+#: functions.php:197
+#: functions.php:204
+#: functions.php:215
+#: functions.php:218
+#: functions.php:221
+#: functions.php:226
+#@ flat
+msgid "Yes"
+msgstr "是"
+
+#: functions.php:169
+#@ flat
+msgid "Input your logo file name."
+msgstr "输入您的LOGO文件名："
+
+#: functions.php:174
+#@ flat
+msgid "Show Search form on sidebar."
+msgstr "边栏显示搜索"
+
+#: functions.php:177
+#@ flat
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr "是否使用 <a href=\"http://www.google.com/cse/\">Google Custom Search</a>代替默认搜索。<br />( 开启后请在下面填写您的 Google Custom Search ID )"
+
+#: functions.php:179
+#@ flat
+msgid "Input your Google Custom Search ID."
+msgstr "输入您的 Google Custom Search ID："
+
+#: functions.php:184
+#@ flat
+msgid "Show RSS button on sidebar."
+msgstr "是否边栏显示RSS按钮"
+
+#: functions.php:189
+#@ flat
+msgid "Show Twitter button on sidebar."
+msgstr "是否边栏显示Twitter按钮"
+
+#: functions.php:191
+#@ flat
+msgid "Input your Twitter URL."
+msgstr "输入您的Twitter地址："
+
+#: functions.php:196
+#@ flat
+msgid "Show Facebook button on sidebar."
+msgstr "是否边栏显示Facebook按钮"
+
+#: functions.php:198
+#@ flat
+msgid "Input your Facebook URL."
+msgstr "输入您的Facebook地址："
+
+#: functions.php:203
+#@ flat
+msgid "Show Information on sidebar."
+msgstr "是否边栏显示信息栏"
+
+#: functions.php:206
+#@ flat
+msgid "Information title."
+msgstr "信息栏标题："
+
+#: functions.php:209
+#@ flat
+msgid "Information contents. ( HTML tag is available. )"
+msgstr "信息栏内容：（支持HTML）"
+
+#: functions.php:214
+#@ flat
+msgid "Show author name."
+msgstr "是否显示作者名"
+
+#: functions.php:217
+#@ flat
+msgid "Show bread crumb at single post page."
+msgstr "是否在文章页面显示面包屑导航"
+
+#: functions.php:220
+#@ flat
+msgid "Show time on comment."
+msgstr "是否评论显示时间"
+
+#: functions.php:225
+#@ flat
+msgid "Check if you want to show Return top button on right bottom of the site."
+msgstr "是否显示回到顶部按钮"
+
+#: functions.php:347
+#@ flat
+msgid " g:ia"
+msgstr " g:ia"
+
+#: functions.php:354
+#: functions.php:356
+#: functions.php:359
+#@ flat
+msgid "REPLY"
+msgstr "回复"
+
+#: functions.php:361
+#@ flat
+msgid "QUOTE"
+msgstr "引用"
+
+#: functions.php:368
+#@ flat
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在审核"
+
+#: header.php:8
+#, php-format
+#@ flat
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: navigation.php:16
+#@ flat
+msgid "PAGE NAVI"
+msgstr "页面导航"
+
+#: search.php:6
+#@ flat
+msgid "Search results for "
+msgstr "搜索结果之于 "
+
+#: search.php:6
+#@ flat
+msgid " hit"
+msgstr " 条"
+
+#: sidebar.php:14
+#: sidebar.php:16
+#: sidebar.php:23
+#: sidebar.php:24
+#@ flat
+msgid "SEARCH"
+msgstr "搜索一下"
+
+#: sidebar.php:66
+#@ flat
+msgid "RECENT ENTRY"
+msgstr "最新文章"
+
+#: sidebar.php:77
+#@ flat
+msgid "CATEGORY"
+msgstr "目录"
+
+#: sidebar.php:85
+#@ flat
+msgid "ARCHIVES"
+msgstr "归档"
+
+#: sidebar.php:94
+#@ flat
+msgid "LINKS"
+msgstr "友情链接"
+
+#: single.php:11
+#@ flat
+msgid "HOME"
+msgstr "首页"
+

@@ -1,0 +1,41 @@
+2013-05-08 - Version 5.1
+* Fixed shortcodes buttons for the visual editor, where buttons from the third party plugins were blocked.
+* Upgrading instructions: Just re-upload the following file: lib/shortcodes/shortcodes.php
+
+2013-03-06 - Version 5.0
+This is a major update that adds new features to the theme. Updating instructions are below.
+* Added responsive design support
+* Added Shortcodes
+* Added support for WooCommerce Shopping Cart (http://wordpress.org/extend/plugins/woocommerce/)
+* Added support for new page templates: Sitemaap Page Template, Contact Form Page Template, Archives Page Template and Full Width Page Template
+* Upgrading instructions
+    1. Upload the 'lib' folder from the new version to your current theme's folder
+    2. Upload the following page template files 'page-template-archives.php', 'page-template-contact.php', 'page-template-sitemap.php' and 'page-template-full.php' from the new version to your current theme's folder (Overwrite if already exists)
+    3. Upload the 'woocommerce.php' file from the new version to your current theme's folder
+    4. Open header.php and after </title> add the below code in a new line:
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    5. Open functions.php and
+        5.1 Add below code immediately after first opening <?php declaration in new line
+            require TEMPLATEPATH . '/lib/shortcodes/shortcodes.php';
+            require TEMPLATEPATH . '/lib/features.php';
+        5.2 Find the following code
+            array(	"name" => "Logo Image",
+        5.3 If the above code exists in your functions.php - Add below code just before it.
+        array(	"name" => "Contact Form Email",
+        "desc" => "The messages submitted from the contact form will be sent to this email address.",
+        "id" => $shortname."_contact_form_email",
+        "std" =>  get_option('admin_email'), 
+        "type" => "text"),
+    6. Open the style.css file from the new theme, find and copy the codes after /* =RESPONSIVE and paste them at the end of your current themes's style.css
+
+2012-01-02 - Version 4.1
+* Fixed the custom background defined in the WordPress admin panel does not appear after the WordPress 3.3 update
+
+2011-10-22 - Version 4.0 
+* Minor bug fixes and added changelog.txt and readme.txt
+
+2011-04-30 - Version 3.0 
+* Fixed: Featured Posts Slider IE 9.0 compatibility issue
+
+2010-08-30 - Version 1.0
+* Initial theme release!

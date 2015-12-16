@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: flat\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-01 10:49+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: monolab <mail@monolab.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: I:\\xampplite\\htdocs\\flat\n"
+"X-Poedit-SearchPath-0: wp-content\\themes\\flat\n"
+
+#: wp-content\themes\flat/404.php:5
+msgid "Error 404 Not Found."
+msgstr ""
+
+#: wp-content\themes\flat/404.php:7
+#: wp-content\themes\flat/archive.php:62
+#: wp-content\themes\flat/index.php:35
+#: wp-content\themes\flat/navigation.php:22
+#: wp-content\themes\flat/page-comment.php:33
+#: wp-content\themes\flat/page-noside.php:28
+#: wp-content\themes\flat/page.php:23
+#: wp-content\themes\flat/search.php:47
+#: wp-content\themes\flat/single.php:46
+msgid "RETURN HOME"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:8
+#, php-format
+msgid "Archive for the &#8216;<span id=\"keyword\"> %s </span>&#8217; Category"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:11
+#, php-format
+msgid "Posts Tagged &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:14
+#: wp-content\themes\flat/archive.php:17
+#: wp-content\themes\flat/archive.php:20
+#, php-format
+msgid "Archive for &#8216;<span id=\"keyword\"> %s </span>&#8217;"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:14
+#: wp-content\themes\flat/comments.php:111
+#: wp-content\themes\flat/functions.php:347
+msgid "F jS, Y"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:17
+msgid "F, Y"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:20
+msgid "Y"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:23
+msgid "Author Archive"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:26
+msgid "Blog Archives"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:36
+#: wp-content\themes\flat/index.php:9
+#: wp-content\themes\flat/page-comment.php:14
+#: wp-content\themes\flat/page-noside.php:14
+#: wp-content\themes\flat/page.php:9
+#: wp-content\themes\flat/search.php:15
+#: wp-content\themes\flat/single.php:24
+msgid "Read more"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:48
+#: wp-content\themes\flat/index.php:21
+#: wp-content\themes\flat/page-comment.php:20
+#: wp-content\themes\flat/search.php:27
+#: wp-content\themes\flat/single.php:30
+msgid "m/d. Y"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:50
+#: wp-content\themes\flat/comments.php:33
+#: wp-content\themes\flat/index.php:23
+#: wp-content\themes\flat/page-comment.php:21
+#: wp-content\themes\flat/search.php:29
+#: wp-content\themes\flat/single.php:34
+msgid "Write comment"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:50
+#: wp-content\themes\flat/index.php:23
+#: wp-content\themes\flat/page-comment.php:21
+#: wp-content\themes\flat/search.php:29
+#: wp-content\themes\flat/single.php:34
+msgid "1 comment"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:50
+#: wp-content\themes\flat/index.php:23
+#: wp-content\themes\flat/page-comment.php:21
+#: wp-content\themes\flat/search.php:29
+#: wp-content\themes\flat/single.php:34
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:51
+#: wp-content\themes\flat/functions.php:362
+#: wp-content\themes\flat/index.php:24
+#: wp-content\themes\flat/page-comment.php:22
+#: wp-content\themes\flat/search.php:30
+#: wp-content\themes\flat/single.php:35
+msgid "EDIT"
+msgstr ""
+
+#: wp-content\themes\flat/archive.php:60
+#: wp-content\themes\flat/index.php:33
+#: wp-content\themes\flat/page-comment.php:31
+#: wp-content\themes\flat/page-noside.php:26
+#: wp-content\themes\flat/page.php:21
+#: wp-content\themes\flat/search.php:45
+#: wp-content\themes\flat/single.php:44
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:7
+#: wp-content\themes\flat/comments.php:13
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:35
+msgid "Comments RSS"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:40
+msgid "Trackback"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:41
+#: wp-content\themes\flat/comments.php:44
+msgid "Comments"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:43
+msgid "Trackback are closed"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:75
+msgid "No comments yet."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:102
+msgid "TrackBack URL"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:112
+msgid "[ EDIT ]"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:115
+msgid "Trackback from : "
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:120
+msgid "No trackbacks yet."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:139
+msgid "Comment are closed."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:150
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:167
+#: wp-content\themes\flat/comments.php:169
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:167
+#: wp-content\themes\flat/comments.php:169
+msgid "Log out of this account"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:167
+msgid "[ Log out ]"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:169
+msgid "Log out"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:176
+msgid "NAME"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:176
+#: wp-content\themes\flat/comments.php:177
+msgid "( required )"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:177
+msgid "E-MAIL"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:177
+msgid "- will not be published -"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:178
+msgid "URL"
+msgstr ""
+
+#: wp-content\themes\flat/comments.php:192
+msgid "Submit Comment"
+msgstr ""
+
+#: wp-content\themes\flat/footer.php:13
+msgid "Copyright &copy;&nbsp; "
+msgstr ""
+
+#: wp-content\themes\flat/footer.php:14
+msgid "Theme designed by <a class=\"target_blank\" href=\"http://www.mono-lab.net/\">mono-lab</a>"
+msgstr ""
+
+#: wp-content\themes\flat/footer.php:15
+msgid "Powered by <a class=\"target_blank\" href=\"http://wordpress.org/\">WordPress</a>"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:147
+#: wp-content\themes\flat/functions.php:160
+msgid "FLAT Theme Options"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:155
+msgid "Theme options have been saved."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:164
+#: wp-content\themes\flat/functions.php:229
+msgid "Save Changes"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:167
+msgid "Check if you would like to use original image for logo instead of using plain text.<br />( Don't forget to upload image to, /wp-content/themes/flat/img/ )"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:168
+#: wp-content\themes\flat/functions.php:175
+#: wp-content\themes\flat/functions.php:186
+#: wp-content\themes\flat/functions.php:189
+#: wp-content\themes\flat/functions.php:196
+#: wp-content\themes\flat/functions.php:201
+#: wp-content\themes\flat/functions.php:208
+#: wp-content\themes\flat/functions.php:215
+#: wp-content\themes\flat/functions.php:218
+#: wp-content\themes\flat/functions.php:221
+#: wp-content\themes\flat/functions.php:226
+msgid "Yes"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:169
+msgid "Input your logo file name."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:174
+msgid "Show Information on sidebar."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:177
+msgid "Information title."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:180
+msgid "Information contents. ( HTML tag is available. )"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:185
+msgid "Show Search form on sidebar."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:188
+msgid "Use <a href=\"http://www.google.com/cse/\">Google Custom Search</a><br />(If you check this option,don't forget to write your Google Custom Search ID below.)"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:190
+msgid "Input your Google Custom Search ID."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:195
+msgid "Show RSS button on sidebar."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:200
+msgid "Show Twitter button on sidebar."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:202
+msgid "Input your Twitter URL."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:207
+msgid "Show Facebook button on sidebar."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:209
+msgid "Input your Facebook URL."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:214
+msgid "Show author name."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:217
+msgid "Show bread crumb at single post page."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:220
+msgid "Show time on comment."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:225
+msgid "Check if you want to show Return top button on right bottom of the site."
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:347
+msgid " g:ia"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:354
+#: wp-content\themes\flat/functions.php:356
+#: wp-content\themes\flat/functions.php:359
+msgid "REPLY"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:361
+msgid "QUOTE"
+msgstr ""
+
+#: wp-content\themes\flat/functions.php:368
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: wp-content\themes\flat/header.php:8
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: wp-content\themes\flat/navigation.php:16
+msgid "PAGE NAVI"
+msgstr ""
+
+#: wp-content\themes\flat/search.php:6
+msgid "Search results for "
+msgstr ""
+
+#: wp-content\themes\flat/search.php:6
+msgid " hit"
+msgstr ""
+
+#: wp-content\themes\flat/sidebar.php:36
+#: wp-content\themes\flat/sidebar.php:40
+#: wp-content\themes\flat/sidebar.php:44
+#: wp-content\themes\flat/sidebar.php:45
+msgid "SEARCH"
+msgstr ""
+
+#: wp-content\themes\flat/sidebar.php:76
+msgid "RECENT ENTRY"
+msgstr ""
+
+#: wp-content\themes\flat/sidebar.php:87
+msgid "CATEGORY"
+msgstr ""
+
+#: wp-content\themes\flat/sidebar.php:95
+msgid "ARCHIVES"
+msgstr ""
+
+#: wp-content\themes\flat/sidebar.php:104
+msgid "LINKS"
+msgstr ""
+
+#: wp-content\themes\flat/single.php:11
+msgid "HOME"
+msgstr ""
+

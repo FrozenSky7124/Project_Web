@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+body { font-family:Arial,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+
+#logo_text { margin:78px 0 5px 4%; font-size:24px; font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif; }
+
+#site_decoration, .post_meta, .meta li, #right_col { font-size:10px; }
