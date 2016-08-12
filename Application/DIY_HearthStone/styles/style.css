@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*Body*/
+
+body {
+	width:auto;
+	margin:0 auto;
+	font-family: 微软雅黑,Verdana,Tahoma,Arial,Helvetica,sans-serif;
+	background:#e9eadf;
+}
+
+/*Header*/
+
+#header {
+	border-bottom: 1px solid #89A6C6;
+	margin:0 auto;
+}
+#header .inner {
+	background: #E3F0FA;
+	border-bottom: 1px solid #FFF;
+	height: 120px;
+	margin: 0 auto;
+}
+#header .content {
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#header .caption {
+	float: left;
+	border-left: 5px solid;
+	border-color: #09F;
+	padding: 1px 0 2px 10px;
+	margin-top: 40px;
+}
+h1 {
+	font-size: 25px;
+}
+#title {
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+#title a {
+	color: #03F;
+	text-decoration: none;
+}
+#tagline {
+	font-size: 15px;
+	color:#333;
+}
+/*Entry*/
+
+#entry {
+	height:700px;
+	width:960px;
+	margin:10px auto;
+	border:#CCC 1px solid;
+	text-align:center;
+	background: #F6FCFF  repeat-y top right;
+	border: solid 1px #89A6C6;
+}
+#entry #uploadform {
+	margin:50px auto;
+}
+#entry #uploadform table tr {
+	height:50px;
+}
+#entry #uploadform table caption {
+	font-size: 20px; /*表格标题*/
+}
+.submitbutton {
+	width: 150px;
+	height: 30px;
+	color: #000;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #00ccff;
+	background-color: #E3F0FA;
+}
+.resetbutton {
+	width: 75px;
+	height: 30px;
+	color: #000;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 1px solid #00ccff;
+	background-color: #E3F0FA;
+}
+
+
+/*Footer*/
+
+#footer {
+	border-top: 1px solid #89A6C6;
+}
+#footer .inner {
+	background: #C0DCF3;
+	border-top: 1px solid #ECF3FE;
+	margin: 0;
+	height: 77px;
+}
+#footer .content {
+	margin: 8px auto 0;
+	width: 960px;
+}
+#footer #about {
+	text-align:center;
+	font-size:13px;
+	text-decoration:none;
+	scrollbar-arrow-color:buttontext
+}
+#footer #about a {
+	text-decoration:none;
+}
