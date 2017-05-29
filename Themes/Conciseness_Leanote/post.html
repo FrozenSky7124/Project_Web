@@ -1,0 +1,98 @@
+{{template "0-a.html" $}}
+<!-- post main start -->
+<div class="my-main">
+<div class="topmark" id="topmark1"></div>
+<!--==================== 正文区域 开始 ====================-->
+<div id="postsContainer">
+    <div id="posts">
+        <div class="each-post">
+            <div class="desc {{if $.post.IsMarkdown }}markdown-content{{end}}" id="content">
+                {{if $.post.IsMarkdown }}
+                <div id="markdownContent" style="display: none">
+                    <!-- 用textarea装html, 防止得到的值失真 -->
+                    <textarea>{{$.post.Content | raw}}</textarea>
+                </div>
+                <div style="padding: 20px; text-align: center">
+                    <img src="{{$.themeBaseUrl}}/images/loading-32.gif" />
+                </div>
+                {{else}} {{$.post.Content | raw}} {{end}}
+            </div>
+        </div>
+    </div>
+    <div class="pre-next-post" id="commentArea">
+        <div>
+            Pre: {{if $.prePost}}<a href="{{$.postUrl}}/{{$.prePost.UrlTitle}}">{{$.prePost.Title}}</a>{{else}}No Post{{end}}
+        </div>
+        <div>
+            Next: {{if $.nextPost}}<a href="{{$.postUrl}}/{{$.nextPost.UrlTitle}}">{{$.nextPost.Title}}</a>{{else}}No Post{{end}}
+        </div>
+    </div>
+</div>
+<div class="topmark" id="topmark3"></div>
+
+<!--==================== 正文区域 结束 ====================-->
+
+<!--==================== 分享和评论区域 开始 ====================-->
+
+<!-- share & comment -->
+{{template "share_comment.html" $}}
+{{template "0-s-import.html" $}}
+{{template "0-s-highlight.html" $}}
+
+</div><!-- //my-main// -->
+{{template "0-b.html" $}}
+
+<!-- 一些在share_comment.js 需要使用的变量 -->
+<script>
+    var siteUrl = "{{$.siteUrl}}"; // common.js需要
+    // 以下 share_comment.js需要
+    var blogInfo={UserId: "{{$.blogInfo.UserId}}", OpenComment: {{$.blogInfo.OpenComment}}, CommentType: "{{$.blogInfo.CommentType}}"};
+    var noteId = "{{$.post.NoteId}}"; //
+    var preLikeNum = +"{{$.post.LikeNum}}";
+    var commentNum = +"{{$.post.CommentNum}}";
+</script>
+
+<!-- 共享与评论css -->
+<link href="{{$.themeBaseUrl}}/share_comment.css" type="text/css" rel="stylesheet"/>
+<!-- 一些公用的js -->
+<script src="{{$.blogCommonJsUrl}}"></script>
+<script src="{{$.themeBaseUrl}}/0-s-fornav.js"></script>
+<script src="{{$.siteUrl}}/public/blog/js/jsrender.js"></script>
+<script src="{{$.siteUrl}}/public/blog/js/jquery-cookie-min.js"></script>
+<script src="{{$.siteUrl}}/public/blog/js/bootstrap-dialog.min.js"></script>
+<script src="{{$.siteUrl}}/public/blog/js/jquery.qrcode.min.js"></script>
+<script src="{{$.themeBaseUrl}}/share_comment.js"></script>
+<!-- share && comment -->
+<!--<script src="{{$.shareCommentJsUrl}}"></script>-->
+
+<!--==================== 分享和评论区域 结束 ====================-->
+
+<!--==================== 页面解析 开始 ====================-->
+
+<!-- 是markdown -->
+{{if $.post.IsMarkdown }}
+<script src="http://leanote.com/public/libs/md2html/md2html.js"></script>
+<script>
+var content = $.trim($("#markdownContent textarea").val());
+md2Html(content, $("#content"), function(html) {
+    $("pre").addClass("prettyprint linenums");
+    prettyPrint();
+    initNav();
+    weixin();
+});
+</script>
+
+<!-- 不是markdown -->
+{{else}}
+<script>
+$(function() {
+    initNav();
+    weixin();
+});
+</script>
+{{end}}
+
+<!--==================== 页面解析 结束 ====================-->
+
+<!-- post main end -->
+{{template "0-c.html" $}}

@@ -1,0 +1,57 @@
+/*
+以下是本主题的配置, 采用JSON格式
+其中Name, Version, Author, AuthorUrl请勿更改
+你也可以定义其它的配置, 在模板文件使用 $.themeInfo.Xxxxx来获取值(注意首字大写)
+
+注意: 
+1) JSON语法严格, 键必须用双引号, 最后不得有空','来结尾
+2) 以下配置不能包含任何注释, 不然解析会出错!
+
+配置说明：
+* Name 主题名。
+* Desc 主题说明。
+* Version 主题版本。
+* Author 主题的作者。
+* AuthorUrl 作者的链接。
+* BlogCopyrightTime 博客Copyright时间。
+* QQ 配置您的QQ。
+* Weico 配置您的微博。
+* Facebook 配置您的facebook
+* FriendLinks 友情链接。
+* BlogImgName 博客About Me图片
+* WebImgName 网页小图标
+* MusicUrl 配置音乐URL
+* ErrorImgName 404页面图片
+* BlogAutograph 博客About Me签名
+*/
+/* 如有疑问，可到mrbird.leanote.com下留言 */
+{
+    "Name": "Conciseness",
+    "Desc": "配置文件：theme.json",
+    "Version": "1.0",
+    "Author": "mrbird",
+    "AuthorUrl": "http://mrbird.leanote.com/",
+    "QQ": "517066422",
+    "Weico": "http://weibo.com/frozensky",
+    "Facebook": "https://www.facebook.com/",
+    "FriendLinks": [
+        {"Title": "Leanote", "Url": "https://leanote.com/note"},
+        {"Title": "FrozenSky's Studio", "Url": "http://blog.csdn.net/frozensky"},
+        {"Title": "FrozenSky's GitHub", "Url": "https://github.com/frozensky7124"},
+        {"Title": "热风CG工作室", "Url": "http://www.gpbeta.com/"}
+    ],
+    "BlogCopyrightTime": "2016~2017",
+    "BlogAutograph": "History is written by the victors. History is filled with lies.",
+    "BlogImgName": "HeadPicCY.jpg",
+    "WebImgName": "webImg.png",
+    "ErrorImgName": "robot.png",
+    "MusicUrl": [
+        {"title": "【剑网三】烽火入冬来（天策）","artist":"玄觞","mp3": "http://m2.music.126.net/V7WQZ_SAcw9qJg7rLLIeMw==/2946691219192971.mp3","cover": "http://p1.music.126.net/jKknwbIVm2tVanlnYaui8g==/3235862723710258.jpg"},
+	    {"title": "【剑网三】眉间雪","artist":"晴愔","mp3": "http://m2.music.126.net/cgtSczHapwpEcSTecssXUg==/2535473815037857.mp3","cover": "http://p1.music.126.net/fhxLLN4eqbX1bW9eGaTmSg==/2538772349388939.jpg"},
+        {"title": "秦时明月·天行九歌","artist":"霍尊","mp3": "http://m2.music.126.net/3lcjsBYTsm7o2rq_IPOE7A==/2946691163613663.mp3","cover": "http://p1.music.126.net/YqpP12ONNFkIiX4TAQ62gw==/1410673429302015.jpg"},
+        {"title": "秦时明月·月赋情长","artist":"平纱落雁","mp3": "http://m2.music.126.net/-tmDYs8GwjXOVCJKP2RZvw==/1368891978716850.mp3","cover": "http://p1.music.126.net/59ydGMHMCqxmpdB9Ot6xOw==/1418370001832268.jpg"},
+        {"title": "爱的魔法","artist":"金莎","mp3": "http://m2.music.126.net/Emj6frFj9SL2v8OERDoIWQ==/1024744837095983.mp3","cover": "http://p1.music.126.net/q5Hq-bTYy9t0_fJRJIdAxQ==/272678883704278.jpg"},
+        {"title": "Star Sky","artist":"TwoSteps FromHell","mp3": "http://m2.music.126.net/dI3lGHRiaowVKLoLcTJ0MQ==/7728467232802041.mp3","cover": "http://p1.music.126.net/Cn65Vr_LgPzS-Slkmuz8Hg==/2919203372658131.jpg"},
+        {"title": "El Dorado Dub","artist":"TwoSteps FromHell","mp3": "http://m2.music.126.net/B0cb_OMCfLY2J_jH3c6Zww==/3416182639766304.mp3","cover": "http://p1.music.126.net/1lCnHI1dpyDQ_iy_wVcVHg==/5642693673818835.jpg"}
+    ]
+}

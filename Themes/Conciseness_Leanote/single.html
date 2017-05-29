@@ -1,0 +1,18 @@
+{{template "0-a.html" $}}
+<!-- main start -->
+<div class="my-main">
+<div id="postsContainer">
+	<div id="posts">
+		<div class="each-post">
+			<div class="desc" id="content">
+					{{$.single.Content | raw}}
+			</div>
+		</div>
+	</div>
+	<div class="topmark" id="topmark3"></div>
+</div>
+</div>
+<!-- main end -->
+{{template "0-b.html" $}}
+{{template "0-s-highlight.html" $}}
+{{template "0-c.html" $}}
