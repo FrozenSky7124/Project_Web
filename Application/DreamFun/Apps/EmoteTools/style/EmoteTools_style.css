@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+body {
+	background-color: #e3e3e3;
+}
+
+/*页面Header*/
+#header {
+	margin: 5px auto;
+	height: 100px;
+	width: 1280px;
+}
+
+#entry {
+	margin: 5px auto;
+	height: auto;
+	width: 1280px;
+}
+
+#elist {
+	margin: 20px 10px 10px 10px;
+	padding: 0px;
+	width: 150px;
+	height: 800px;
+	float: left;
+}
+
+#elist .elist_link {
+	margin: 10px auto;
+	padding: 0px;
+	width: 90px;
+	height: 90px;
+	background-color: #FFF;
+	border: 2px solid #FFF;
+}
+
+#elist .elist_link:hover {
+	border: 2px dashed #66FFFF;
+}
+
+#eshow {
+	margin: 10px;
+	padding: 0px;
+	height: auto;
+	width: 1080px;
+	float: left;
+}
+
+.eblock {
+	margin: 10px;
+	padding: 3px;
+	width: 150px;
+	height: 130px;
+	border: 2px solid #FFF;
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+	float: left;
+}
+
+.eblock:hover {
+	border: 2px dashed #CCC;
+}
+
+.eblock img {
+	position: relative;
+	left: 25%;
+	top: 25%;
+}
+
+/*页面Footer*/
+#footer {
+	margin: 5px auto;
+	height: 70px;
+	width: 1280px;
+}

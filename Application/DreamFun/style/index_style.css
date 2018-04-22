@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body {
+	background-color: #e3e3e3;
+}
+
+/*页面Header*/
+#header {
+	margin: 5px auto;
+	height: 100px;
+	width: 1280px;
+}
+
+#entry {
+	margin: 5px auto;
+	height: 760px;
+	width: 1280px;
+}
+
+/*首页快捷区块*/
+.index_block {
+	height: 190px;
+	width: 260px;
+	margin: 20px 25px;
+	padding: 0px;
+	float: left;
+	background-color: #FFF;
+	border: 3px dashed #FFF;
+}
+
+.index_block:hover {
+	border: 3px dashed #66ccff;
+}
+
+/*页面Footer*/
+#footer {
+	margin: 5px auto;
+	height: 70px;
+	width: 1280px;
+}
+
+#footer #about {
+	text-align: center;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#footer #about a{
+	text-decoration: none;
+	color: #218dfc;
+}
